@@ -34,8 +34,8 @@ Your response should be valid GeoJson which contains Point geometries like the f
                 ]
             },
             "properties": {
-                "imageLink": "./example.jpg", (Original Image seen in lightbox)
-                "thumbnailLink": "./example_thumb.jpg", (Thumbnail seen in image list)
+                "imageLink": "./example.jpg",
+                "thumbnailLink": "./example_thumb.jpg",
                 "title": "Title seen on marker",
                 "description": "Description seen in lightbox"
             }
