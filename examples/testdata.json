@@ -1,0 +1,171 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.836954, 39.925041
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/anitkabir.jpg",
+                "thumbnailLink": "./examples/image/anitkabir_thumb.jpg",
+                "title": "Anıtkabir",
+                "description": "Description about Anıtkabir"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.854730, 39.941739
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/ulusheykel.jpg",
+                "thumbnailLink": "./examples/image/ulusheykel_thumb.jpg",
+                "title": "Ulus",
+                "description": "Description about Ulus"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.855968, 39.885992
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/atakule.jpg",
+                "thumbnailLink": "./examples/image/atakule_thumb.jpg",
+                "title": "Atakule",
+                "description": "Description about Atakule"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.562574, 39.819820
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/cankaya.jpg",
+                "thumbnailLink": "./examples/image/cankaya_thumb.jpg",
+                "title": "Cankaya University",
+                "description": "Description about Cankaya University"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.855167, 39.926273
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/hitit.jpg",
+                "thumbnailLink": "./examples/image/hitit_thumb.jpg",
+                "title": "Hitit",
+                "description": "Description about Hitit"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.843939, 39.937839
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/arena.jpg",
+                "thumbnailLink": "./examples/image/arena_thumb.jpg",
+                "title": "Ankara Arena",
+                "description": "Description about Ankara Arena"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.863435, 39.926855
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/kurtulus.jpg",
+                "thumbnailLink": "./examples/image/kurtulus_thumb.jpg",
+                "title": "Kurtulus Park",
+                "description": "Description about Kurtulus Park"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.861845, 39.938093
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/anadolu.jpg",
+                "thumbnailLink": "./examples/image/anadolu_thumb.jpg",
+                "title": "Museum of Anatolian Civilizations",
+                "description": "Description about Museum of Anatolian Civilizations"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.860213, 39.901994
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/swan.jpg",
+                "thumbnailLink": "./examples/image/swan_thumb.jpg",
+                "title": "Swan Park",
+                "description": "Description about Swan Park"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.843532, 39.892087
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/dikmen.jpg",
+                "thumbnailLink": "./examples/image/dikmen_thumb.jpg",
+                "title": "Dikmen Valley",
+                "description": "Description about Dikmen Valley"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.824627, 39.822935
+                ]
+            },
+            "properties": {
+                "imageLink": "./examples/image/eymir.jpg",
+                "thumbnailLink": "./examples/image/eymir_thumb.jpg",
+                "title": "Eymir Lake",
+                "description": "Description about Eymir Lake"
+            }
+        }
+        
+    ]
+}

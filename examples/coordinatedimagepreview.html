@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Leaflet.CoordinatedImagePreview Test Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="./lib/JQuery/jquery-1.11.3.min.js"></script>
+
+        <link rel="stylesheet" href="./lib/leaflet-0.7.3/leaflet.css" />
+        <script src="./lib/leaflet-0.7.3/leaflet.js"></script>
+
+        <link rel="stylesheet" href="./lib/lightbox2/dist/css/lightbox.min.css" />
+        
+        <script src="./lib/Leaflet.label/dist/leaflet.label.js"></script>
+        <link rel="stylesheet" href="./lib/Leaflet.label/dist/leaflet.label.css" />
+        
+        <script src="./lib/Leaflet.bouncemarker/bouncemarker.js"></script>
+
+        <link rel="stylesheet" href="./dist/coordinatedimagepreview.min.css" />
+        <script src="./dist/coordinatedimagepreview.min.js"></script>
+        <style>
+            html, body { 
+                width: 100%; 
+                height: 100%; 
+                margin: 0px;
+            } 
+            .map {
+                height: 100%;
+                width: 100%;
+                position: relative; 
+            }
+        </style>
+
+        <script>
+            window.onload = function () {
+
+                map = L.map('map', {
+                    center: [39.91, 32.78],
+                    zoom: 11,
+                    zoomControl: false
+                });
+                map.addControl(L.control.zoom({position: 'topright'}));
+
+                L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: 'Leaflet.CoordinatedImagePreview Plug-in Test Page',
+                    subdomains: ['a', 'b', 'c']
+                }).addTo(map);
+
+                var options = {
+                    imageServiceAddress: "./examples/testdata.json",
+                    isOpen: true
+                };
+                $('#coordinatedImagePreviewControlContainer').CoordinatedImagePreviewControl(options);
+
+            };
+        </script>
+
+    </head>
+    <body>
+        <div id="map" class="map"></div>
+
+        <div id='coordinatedImagePreviewControlContainer' style="position: fixed;">
+        </div>
+        <script src="./lib/lightbox2/dist/js/lightbox.min.js"></script>
+
+        <div>
+        </div>
+    </body>
+</html>
