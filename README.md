@@ -5,7 +5,7 @@ Leaflet Coordinated Image Viewer
 
 This plug-in can show thumbnails of coordinated images in a list and show originals with user click. When plugin activated, it sends ajax requests to your service in every map moveend listener and refresh image list.
 
-It requires Leafletjs and JQuery. It has beeen tested with Leaflet 0.7.3 and JQuery 1.11.3
+It requires Leafletjs and JQuery. It has beeen tested with JQuery 1.11.3 and both Leaflet 0.7.3 and Leaflet 1.0 beta 2.
 
 It also requires
 
