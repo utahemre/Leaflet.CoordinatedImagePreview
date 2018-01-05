@@ -155,7 +155,7 @@
                 return L.marker(latlng, {bounceOnAdd: true, bounceOnAddOptions: {duration: 500, height: 100}});
             },
             onEachFeature: function (feature, layer) {
-                layer.bindLabel(feature.properties.title, {noHide: true, direction: 'auto'}).addTo(map);
+                layer.bindTooltip(feature.properties.title, {permanent: true, direction: 'auto'}).addTo(map);
             }
         }).addTo(map);
     }
