@@ -9,7 +9,6 @@ It requires Leafletjs and JQuery. It has beeen tested with JQuery 1.11.3 and bot
 
 It also requires
 
-<a href="https://github.com/Leaflet/Leaflet.label" target="_blank">Leaflet.label</a>, 
 <a href="https://github.com/maximeh/leaflet.bouncemarker" target="_blank">leaflet.bouncemarker</a> and 
 <a href="https://github.com/lokesh/lightbox2/" target="_blank">lightbox2</a>
 
