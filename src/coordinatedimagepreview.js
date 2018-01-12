@@ -108,7 +108,9 @@
                 $("#coordinatedImagePreviewControlListUl").empty();
                 lastImages = featureCollection.features;
                 for (var i = 0; i < lastImages.length; i++) {
-                    var imgHtml = '<li id="coordinatedImagePreviewControlLi' + i + '" class="coordinatedImagePreviewControlLi"><a class="example-image-link" href="' + lastImages[i].properties.imageLink + '" data-lightbox="example-set" data-title="' + lastImages[i].properties.description + '"><img width="150" height="100" class="example-image" src="' + lastImages[i].properties.thumbnailLink + '" alt=""/></a></li>';
+                    
+                    if(bounds.contains(L.latLng(lastImages[i].geometry.coordinates[1], lastImages[i].geometry.coordinates[0]))){
+                       var imgHtml = '<li id="coordinatedImagePreviewControlLi' + i + '" class="coordinatedImagePreviewControlLi"><a class="example-image-link" href="' + lastImages[i].properties.imageLink + '" data-lightbox="example-set" data-title="' + lastImages[i].properties.description + '"><img width="150" height="100" class="example-image" src="' + lastImages[i].properties.thumbnailLink + '" alt=""/></a></li>';
 
                     $("#coordinatedImagePreviewControlListUl").append(imgHtml);
 
@@ -122,7 +124,8 @@
 
                     $("#coordinatedImagePreviewControlLi" + i).mousedown(function () {
                         imageListElementMouseDown(this);
-                    });
+                    }); 
+                    }
                 }
 
             }
